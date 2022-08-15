@@ -1,0 +1,88 @@
+
+#card_cover{
+    width: 60%;
+    height:auto;
+    box-shadow: 2px 2px 15px 5px rgba(0,0,0,0.3);
+
+}
+
+#img_cover{
+    width:100%;
+    height:300px;
+
+}
+
+#resim{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+
+
+}
+
+#card_context{
+    margin: 0rem;
+    padding: 2rem;
+
+}
+
+#fLine{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0rem 0rem 1rem 0rem;
+
+}
+
+#name{
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#price{
+    font-size: 1rem;
+    font-weight:500;
+    letter-spacing: 3px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(86, 86, 245);
+    background-color: rgb(218, 242, 253);
+    padding:0.3rem;
+}
+
+#text{
+    color:rgb(58, 112, 143);
+}
+
+#cancel{
+    width:10rem;
+    outline:none;
+    border: 1px solid rgb(92, 4, 4);
+    color:rgb(92, 4, 4);
+    background-color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:block;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+
+}
+
+#cancel:hover{
+    cursor:pointer;
+}
+
+#cancel:active{
+    transform:scale(0.9);
+}
+
+
+@media all and (max-width:800px){
+    #card_cover{
+        width: 90%;
+    
+    }
+}
